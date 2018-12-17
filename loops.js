@@ -23,11 +23,10 @@ function doWhileLoop (array) {
   var i = 0;
 
   function incrementVariable() {
-    i = i + 0;
+    i = i + 1;
   }
   do {
-    console.log('doWhileLoop');
-    array.length > 0 && incrementVariable()
+    console.log(array.length > 0 && incrementVariable());
   }
 
   return array
