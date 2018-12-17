@@ -13,6 +13,7 @@ function forLoop(array) {
 
 
 function whileLoop(n) {
+  n = done
   while (n > 0) {
     console.log(--n);
   }
